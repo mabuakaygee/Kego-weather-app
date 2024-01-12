@@ -41,6 +41,7 @@ main {
 }
 .weather-app-temperature {
   font-size: 50px;
+  font-weight: bold;
 }
 
 .weather-app-icon {
@@ -48,7 +49,8 @@ main {
   margin-top: 5px;
 }
 .weather-app-unit {
-  font-size: 45px;
+  font-size: 35px;
+  margin-top: 8px;
 }
 footer {
   padding: 20px 0 0 0;
