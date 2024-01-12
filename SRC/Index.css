@@ -1,0 +1,14 @@
+body {
+  background-color: rgb(163, 201, 201);
+  font-family: "IBM Plex Mono", monospace;
+  font-family: "Nova Square", sans-serif;
+  font-family: "Oswald", sans-serif;
+}
+.weather-app {
+  background-color: antiquewhite;
+  max-width: 600px;
+  margin: 0 auto;
+  padding: 30px;
+  border-radius: 15px;
+  box-shadow: 0 10px 10px rgb(219, 217, 220);
+}
