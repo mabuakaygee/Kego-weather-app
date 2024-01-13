@@ -10,7 +10,7 @@ function updateWeatherData(response) {
   let icon = (iconElement = document.querySelector("#icon"));
 
   iconElement.innerHTML = ` <img
-                src="${response.condition.icon_url}"
+                src="${response.data.condition.icon_url}"
                 class="weather-app-icon"
               />`;
   cityElement.innerHTML = response.data.city;
