@@ -51,10 +51,10 @@ function handleSearchSubmit(event) {
 function getForecast(city) {
   let apiKey = "0t212e3e78of1c561254503652bc80af";
   let apiUrl = `https://api.shecodes.io/weather/v1/forecast?query=${city}&key=${apiKey}&units-metric`;
-  axios.get(apiUrl).then(displayforecast);
+  axios.get(apiUrl).then(displayForecast);
 }
 
-function displayforecast(response) {
+function displayForecast(response) {
   let forecastElement = document.querySelector("#forecast");
 
   let days = ["Mon", "Tue", "Wed", "Thur", "Fri", "Sat"];
@@ -81,4 +81,4 @@ let searchFormElement = document.querySelector("#search-form");
 searchFormElement.addEventListener("submit", handleSearchSubmit);
 
 searchCity("Pretoria");
-getforecast("Pretoria");
+getForecast("Pretoria");
