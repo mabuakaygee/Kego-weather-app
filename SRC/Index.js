@@ -59,7 +59,7 @@ function displayforecast() {
       forecastHtml +
       `
     <div class="weather-forecast-day">
-      <div><span class="weather-forecast-day"></span><span ${day}></span></div>
+      <div class="weather-forecast-day"> ${day}</div>
       <div class="weather-forecast-icon">⛅</div>
       <div class="weather-forecast-temperature">
         <span class="weather-forecast-temperature-max">18°C</span>
