@@ -61,3 +61,31 @@ footer {
 a {
   color: rgb(42, 27, 210);
 }
+.weather-forecast {
+  margin-top: 20px;
+  display: flex;
+  justify-content: space-around;
+}
+.weather-forecast-date {
+  font-size: 16px;
+  color: rgb(42, 27, 210);
+  text-align: center;
+  line-height: 20px;
+  margin-bottom: 10px;
+}
+.weather-forecast-temperatures {
+  text-align: center;
+  color: blue;
+  margin-top: 10px;
+  display: flex;
+  justify-content: center;
+}
+.weather-forecast-temperature {
+  padding: 0 10px;
+}
+.weather-forecast-icon img {
+  width: 38px;
+  display: block;
+  height: 48px;
+  margin: 0 auto;
+}
